@@ -1,0 +1,13 @@
+.container {
+	max-width: none; 
+	width: 100%;
+}
+
+/*pemanggilan attribute buatan sendiri*/
+div[class*="col-"]{
+	border: 1px solid black;
+}
+
+/*.navbar{
+
+}*/
